@@ -1,0 +1,90 @@
+{
+    "pigeon": [
+        {
+            "id": 1,
+            "No_rings": 1,
+            "name": "dziubak",
+            "description": "Głupi jak but",
+            "date_of_birth": "2014-03-04",
+            "country_id": 1,
+            "branch_id": 1,
+            "color_id": 1,
+            "mother_id": null,
+            "father_id": null,
+            "sex_id": 1,
+            "hatch": null,
+            "image_path": "/images/uploads/default-pigeon.jpg",
+            "created_at": "2014-09-07 15:40:48",
+            "updated_at": "2014-09-07 15:40:48",
+            "color": {
+                "id": 1,
+                "code": 1,
+                "name": "niebieska"
+            },
+            "sex": {
+                "id": 1,
+                "code": 1,
+                "name": "samiec"
+            },
+            "country": {
+                "id": 1,
+                "shortcut": "PL",
+                "name": "Polska"
+            },
+            "branch": {
+                "id": 1,
+                "code": "02",
+                "name": "Garwolin"
+            },
+            "pigeons_owners": []
+        },
+        {
+            "id": 2,
+            "No_rings": 2,
+            "name": "dziubak2",
+            "description": "Głupi jak but2",
+            "date_of_birth": "2014-03-04",
+            "country_id": 1,
+            "branch_id": 1,
+            "color_id": 1,
+            "mother_id": null,
+            "father_id": null,
+            "sex_id": 2,
+            "hatch": null,
+            "image_path": "/images/uploads/default-pigeon.jpg",
+            "created_at": "2014-09-07 15:40:48",
+            "updated_at": "2014-09-07 15:40:48",
+            "color": {
+                "id": 1,
+                "code": 1,
+                "name": "niebieska"
+            },
+            "sex": {
+                "id": 2,
+                "code": 0,
+                "name": "samica"
+            },
+            "country": {
+                "id": 1,
+                "shortcut": "PL",
+                "name": "Polska"
+            },
+            "branch": {
+                "id": 1,
+                "code": "02",
+                "name": "Garwolin"
+            },
+            "pigeons_owners": [
+                {
+                    "id": 1,
+                    "date_from": "2014-03-04",
+                    "date_to": null,
+                    "pigeon_id": 2,
+                    "user_id": 1,
+                    "created_at": "2014-09-07 15:40:48",
+                    "updated_at": "2014-09-07 15:40:48"
+                }
+            ]
+        }
+    ]
+}
